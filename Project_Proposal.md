@@ -53,10 +53,10 @@ We propose a gateway-side synchronization protocol for two ESP32 devices that ru
 ## Project Timeline:
 - Week 1: Set up Raspberry Pi and ESP32 nodes; collect sensors; start developing firmware
 - Week 2: Test sampling and timestamping capabilities of sensor data
-- Week 3: 
-- Week 4:
-- Week 5:
-- Week 6:
+- Week 3: Collect RRT and jitter data over WiFi
+- Week 4:...
+- Week 5:...
+- Week 6:...
 
 ## References: 
 
