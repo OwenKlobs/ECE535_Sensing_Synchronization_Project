@@ -46,9 +46,9 @@ We propose a gateway-side synchronization protocol for two ESP32 devices that ru
 - Gateway software on Raspberry Pi: receiver, delay characterization, event matching, offset/drift estimation, logging and analysis
 
 ## Team Members and Responsibilities:
-- Owen
-- Jack
-- Quinn
+- Owen: Hardware and Networking Lead
+- Jack: Setup and Software Lead
+- Quinn: Algorithm and Research Lead
 
 ## Project Timeline:
 - Week 1: Set up Raspberry Pi and ESP32 nodes; collect sensors; start developing firmware
