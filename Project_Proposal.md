@@ -34,16 +34,20 @@ We propose a gateway-side synchronization protocol for two ESP32 devices that ru
 ## Hardware/Software Requirements:
 
 **Hardware**
+[Hardware Block Diagram - Google Drawings.pdf](https://github.com/user-attachments/files/32939449/Hardware.Block.Diagram.-.Google.Drawings.pdf)
+
 - 2x ESP32 (same as HAEST, for comparable results)
 - Sensors: microphone(s) and IMU(s) for same cross-type pair modality checks
 - Raspberry Pi (gateway)
 - Wiring for ground-truth pulse (shared GPIO line)
 
 **Software**
+[Software Block Diagram - Google Drawings.pdf](https://github.com/user-attachments/files/32939450/Software.Block.Diagram.-.Google.Drawings.pdf)
 - ESP32 firmware:sensor data collection and timestamping
 - Bootstrapping and synchronization phases
 - Streaming client (ESP32 to Gateway)
 - Gateway software on Raspberry Pi: receiver, delay characterization, event matching, offset/drift estimation, logging and analysis
+
 
 ## Team Members and Responsibilities:
 - Owen: Hardware and Networking Lead
