@@ -1,0 +1,4 @@
+Things we can add on: 
+- Use an analog Sensor like a piezo vibration sensor to test out time sync. Compare our data with data collected from the IMU to see the difference between the two.
+- Security check: Test out spoofs where there are interruptions that could cause inaccurate data collection 
+- Temperature change: Gradually change the temperature to observe drift over a period of time compared to a controlled environment. 
